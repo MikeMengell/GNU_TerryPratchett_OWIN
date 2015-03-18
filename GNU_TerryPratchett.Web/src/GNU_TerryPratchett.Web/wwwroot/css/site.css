@@ -1,0 +1,16 @@
+﻿.masthead {
+  padding: 70px 0 80px;
+  margin-bottom: 0;
+  color: #fff;
+  background-color: cornflowerblue;
+}
+.masthead h1 {
+  font-size: 72px;
+  line-height: 1;
+  letter-spacing: -2px;
+}
+.masthead p {
+  font-size: 40px;
+  font-weight: 200;
+  line-height: 1.25;
+}
