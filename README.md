@@ -12,11 +12,12 @@ Unfortunately the nuget.org gallery won't accept it quite yet as it's built usin
 0. Install locally `install-package -Source {folder}\OWIN.GNU_TerryPratchett`
 0. Add to Startup.cs like;
    
-    public void Configure(IApplicationBuilder app)
-    {
-        app.UseMvc();
-        app.UseGNUTerryPratchett();
-    }
+```
+public void Configure(IApplicationBuilder app)
+{
+    app.UseMvc();
+    app.UseGNUTerryPratchett();
+}
 
 History
 -------
