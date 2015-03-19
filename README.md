@@ -18,6 +18,7 @@ public void Configure(IApplicationBuilder app)
     app.UseMvc();
     app.UseGNUTerryPratchett();
 }
+```
 
 History
 -------
