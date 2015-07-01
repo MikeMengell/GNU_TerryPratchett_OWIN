@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>GNUTerryPratchett</id>
+    <version>1.0.0</version>
+    <authors>Mike Mengell</authors>
+    <owners>Mike Mengell</owners>
+    <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
+    <projectUrl>https://github.com/MikeMengell/OWIN.GNU_TerryPratchett</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Simple package which adds the X-Clacks-Overhead response for GNU Terry Pratchett</description>
+    <releaseNotes>ASP.net 5 Beta 4</releaseNotes>
+    <copyright>Copyright 2015</copyright>
+    <tags>Clacks Pratchett</tags>
+  </metadata>
+</package>
