@@ -9,7 +9,7 @@ Usage
 Unfortunately the nuget.org gallery won't accept it quite yet as it's built using NuGet 3.0 for the ASP.Net Core support.  As soon as I can add it then I will but for now the process is a little manual.
 
 0. Download the NuGet package [`OWIN.GNU_TerryPratchett`](https://github.com/MikeMengell/OWIN.GNU_TerryPratchett/tree/master/OWIN.GNU_TerryPratchett/dist)
-0. Install locally `install-package -Source {folder}\OWIN.GNU_TerryPratchett`
+0. Install locally `install-package -Source {folder}\OWIN.GNU_TerryPratchett -Pre`
 0. Add to Startup.cs like;
 
 ;
