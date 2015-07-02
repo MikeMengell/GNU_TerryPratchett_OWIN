@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>OWIN.GNU_TerryPratchett</name>
+    </assembly>
+    <members>
+        <member name="T:OWIN.GNU_TerryPratchett.GNUTerryPratchettExtensions">
+            <summary>
+            IApplicationBuilder extensions for the GNUTerryPratchettExtensions.
+            </summary>
+        </member>
+        <member name="M:OWIN.GNU_TerryPratchett.GNUTerryPratchettExtensions.UseGNUTerryPratchett(Microsoft.AspNet.Builder.IApplicationBuilder)">
+            <summary>
+            Adds the GNUTerryPratchettMiddleware to the pipeline with the given options.
+            </summary>
+            <param name="builder"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OWIN.GNU_TerryPratchett.GNUTerryPratchettMiddleware.#ctor(Microsoft.AspNet.Builder.RequestDelegate)">
+            <summary>
+            Creates a default web page for new applications.
+            </summary>
+            <param name="next"></param>
+        </member>
+        <member name="M:OWIN.GNU_TerryPratchett.GNUTerryPratchettMiddleware.Invoke(Microsoft.AspNet.Http.HttpContext)">
+            <summary>
+            Process an individual request.
+            </summary>
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
